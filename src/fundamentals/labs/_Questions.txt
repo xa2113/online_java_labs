@@ -2,37 +2,61 @@ Answer the following questions:
 
 1.) Using the command line, how do you:
     a. change directories?
+    cd
     b. list the contents of a folder?
+    ls
     c. print the path of the current directory?
+    pwd
     d. move a file from one location to the another?
+    mv <file_name> <place_to_move_to>
     e. copy a file from one location to another?
+    cp <file_name_to_be_copied> <new_file_to_copy_to>
     f. create a file?
+    touch <file_name>
     g. create a folder?
+    mkdir <folder_name>
     h. delete a file?
+    rm <file_name>
     i. delete a folder?
+    rm -R <folder_name>
     j. print the contents of a file?
+    cat <file_name>
     k. edit the contents of a file?
+    vim <file_name>
 
 2.) Why do we use git and Github?
+We use git for version control and use Github to share your project with other people.
 
 3.) What is the general flow of git?
+1. You have files to track and back-up
+2. Add the files to staging area with "git add"
+3. Commit those changes to the Git record with "git commit"
+4. Git push <remote> <branch>
 
 4.) What is the purpose of adding a remote to a local git repository?
+To save files locally.
 
 5.) How do you print a message to the console?
+System.out.println("Message");
 
 6.) Where does a program begin its execution?
+main() method
 
 7.) What is a code block and how do you create one?
+A code block is one or more statements of code. You create one with { }.
 
 8.) What is the idea of variable scope?
+Certain variables are only accessible to certain codes. Ex. local variables exist within the curly braces of a method and can not be "seen" by any other members of a class.
 
 9.) What are semicolons used for?
+A separator to terminate a statement.
 
 10.) What are lines of code indented? When should a line be indented?
+Use "tab" to allow for more readable code.
+Indent one level after each opening brace and move back out one level after each closing brace.
 
 11.) What does a .java file need to be complied to a .class file before running?
-
+javac?? JVM??
 
 
 
