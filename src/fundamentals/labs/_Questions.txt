@@ -56,7 +56,7 @@ Use "tab" to allow for more readable code.
 Indent one level after each opening brace and move back out one level after each closing brace.
 
 11.) What does a .java file need to be complied to a .class file before running?
-javac?? JVM??
+javac; JVM
 
 
 

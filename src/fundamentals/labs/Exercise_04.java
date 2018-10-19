@@ -1,5 +1,7 @@
 package fundamentals.labs;
 
+import java.text.DecimalFormat;
+
 /**
  * Fundamentals Exercise 4: Area and Perimeter
  *
@@ -11,19 +13,17 @@ package fundamentals.labs;
 public class Exercise_04 {
 
     public static void main(String[] args) {
+        double radius, height, perimeter, area;
 
-       double radius, height, perimeter, area;
+        radius = 3.14;
+        height = 5;
 
-       radius = 3.14;
-       height = 5;
-
-       perimeter = 2 * Math.PI * radius;
-       area = 2* Math.PI * radius * height + 2 * Math.PI * radius * radius;
-
-        System.out.println("Perimeter is " + perimeter + ". Area is " + area +".");
+        DecimalFormat df2 = new DecimalFormat(".##");
 
 
+        perimeter = 2 * Math.PI * radius;
+        area = 2* Math.PI * radius * height + 2 * Math.PI * radius * radius;
 
-
+        System.out.println("Perimeter is " + df2.format(perimeter) + ". Area is " + df2.format(area) +".");
     }
 }
