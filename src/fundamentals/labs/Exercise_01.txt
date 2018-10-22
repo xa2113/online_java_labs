@@ -13,15 +13,27 @@ Fundamentals Exercise 1: CLI
          c. list the contents of the folder
          ls -al
      5. Inside of folder Terminal_testing, create a new folder
+         cd Terminal_testing
+         mkdir new_folder
      6. Copy a file from Terminal_testing to the new folder
+         cp file1.txt new_folder
      7. Move a different file from Terminal testing to the new folder
+         mv file1.txt new_folder
      8. Demonstrate removing:
          a. A file
+            rm file_name
          b. A folder
+            rm -R folder_name
      9. CHALLENGE:
          a. Use $ vim to write some text inside a file
+            vim file_name
+            press i to insert text
+            press esc to escape
+            press :wq to save file and quit
          b. Use $ cat print contents of file
+            cat file_name
          c. Use $ grep to search for a word inside file
+            grep "searched keyword" file_name
 
 Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd

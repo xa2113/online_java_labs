@@ -13,17 +13,15 @@ import java.text.DecimalFormat;
 public class Exercise_04 {
 
     public static void main(String[] args) {
-        double radius, height, perimeter, area;
+        int radius, height, perimeter, area;
 
-        radius = 3.14;
-        height = 5;
-
-        DecimalFormat df2 = new DecimalFormat(".##");
+        radius = (int) 3.14;
+        height = (int) 5;
 
 
-        perimeter = 2 * Math.PI * radius;
-        area = 2* Math.PI * radius * height + 2 * Math.PI * radius * radius;
+        perimeter = (int) (2 * Math.PI * radius);
+        area = (int) (2* Math.PI * radius * height + 2 * Math.PI * radius * radius);
 
-        System.out.println("Perimeter is " + df2.format(perimeter) + ". Area is " + df2.format(area) +".");
+        System.out.println("Perimeter is " + perimeter + ". Area is " + area +".");
     }
 }
