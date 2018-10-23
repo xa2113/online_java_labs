@@ -6,11 +6,16 @@
 
 Initializing git folder
     1. In CodingNomads folder, create new folder git_practice
+        mkdir git_practice
     2. Inside git_practice:
         a. Initialize folder as a git folder (make sure you are in the correct folder when initializing)
+          mkdir git_test_folder
         b. Make new file
+            touch git_test_file
         c. Add file
+            git add git_test_file
         d. Commit file
+            git commit -m "this is the test file"
         c. On Github, create new git_practice repository
         d. Push commit file to Github
         e. Practice the following git flow until you feel comfortable:
