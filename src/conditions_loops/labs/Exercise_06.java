@@ -8,4 +8,13 @@ package conditions_loops.labs;
  */
 
 public class Exercise_06 {
+    public static void main(String[] args) {
+        int i = 0;
+        int result = 0;
+        while(i <101){
+            i++;
+            result +=i;
+        }
+        System.out.println(result);
+    }
 }
