@@ -1,18 +1,27 @@
 Answer the following questions:
 
 1.) What is the if statement used for?
-
+If statement is a boolean expression; code executed if true
 
 2.) What is good real life application of a switch statement?
+When there are multiple cases and only one case needs to be chosen and executed. Ex. selecting a category of fruits
 
 3.) What is the difference between a while loop and a do-while loop?
+The do-while loop executes at least once.
 
 4.) What is the difference between a for loop and an enhanced for loop?
+Enhanced for loop is the for each loop, which is used to used to iterate over a collection of variables such as arrays
 
 5.) How do you create an infinite for loop?
+When the statement is always true. ex. for (var i = 1; i < 0; i++){};
+Also when you leave out the conditions. ex. for (;;){};
 
 6.) What is the difference between the break statement and the continue statement?
+When a break statement is encountered inside a loop, the loop is terminated and program control resumes at the next statement following the loop.
+Continue statement forces the next iteration of the loop to take place.
 
 7.) Is there a limit to how many loops you can nest?
+No.
 
 8.) Is there a limit to how many conditional statements you can nest?
+No.
