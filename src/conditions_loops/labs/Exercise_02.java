@@ -23,7 +23,6 @@ public class Exercise_02 {
         int number = scanner.nextInt();
 
         // write completed code here
-        for (number = 0; number < 8; number++) {
             if (number == 1)
                 System.out.println("Monday!");
             else if (number == 2)
@@ -40,7 +39,5 @@ public class Exercise_02 {
                 System.out.println("Sunday!");
             else
                 System.out.println("There is no corresponding day. Try again!");
-                break;
-        }
     }
 }
