@@ -2,6 +2,7 @@ Answer the following questions:
 
 1.) What is the if statement used for?
 
+
 2.) What is good real life application of a switch statement?
 
 3.) What is the difference between a while loop and a do-while loop?
