@@ -37,35 +37,57 @@ access-modifier return-type method-name(param a, param b, ...){
 }
 
 6.) Write a method signature for a method divide() that takes two ints as parameters and returns a double.
-
+double methodName (int a, int b){
+}
 
 7.) When does a method stop executing? How can you make it terminate?
+Use return. Once a method returns data, the method stops executing, and the execution returns to the location of the method call. (typo? 3. Return and Return Types).
 
 8.) How do you return a String from a method?
+vararg?
 
 9.) What is the return type of a method that does not returns any value?
+void.
 
 10.) When should a method be static?
+When the method needs to be accessed outside of the class.
 
 11.) What is an example of a time you would make an instance variable static? final?
+When you don't want to each object of the class to have its own copy of the variable.
 
 12.) When a method returns a value, what needs to be done with that value?
+Needs to be saved in a variable.
 
 13.) What is method overloading?
+When a method is designed to be able to take in different primitive types.
 
-14.) Demonstrate method overloading by writing the method signature of two overloaded methods.
 
 14.) What are constructors used for?
+A constructor initializes an object when it is created. While syntactically similar to methods, constructors do not have a return type and are used to set initial values to an object when it is created.
 
 15.) If a class does not have a constructor, how does Java handle the creation of an object
+???
 
 16.) What does a constructor that takes in two variable, make and model, for a class Vehicle look like?
+class MyConstructor {
+    char x;
+    MyConstructor(){
+        x = make;
+     }
+    MyConstructor(char model){
+        x = model;
+        }
+ }
+
 
 17.) What is the "this" keyword used for?
+Used to refer to the members of a class if local variables have the same name.
 
 18.) What are the keywords public, private, protected used for in a class declaration? A method declaration? Variable declaration?
 
+
 19.) What is constructor overloading?
+
 
 20.) Demonstrate constructor overloading with three overloaded constructors.
 
