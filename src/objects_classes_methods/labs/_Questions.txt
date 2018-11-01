@@ -2,16 +2,42 @@ Answer the following questions:
 
 
 1.) What is an instance variable?
+An instance variable is a member data of a class.
 
 2.) How do you create an object of a class Vehicle?
+Vehicle object_name = new Vehicle();
 
 3.) What is a reference variable? How is it different from a primitive type?
+A reference variable is an object being passed from one method to another. This differs from a primitive type in that,
+when a primitive type is passed from methodA() to methodB(), methodB() now has a copy of that primitive variable that it can make any changes to without changing that variable in methodA().
 
 4.) What does it mean to pass by reference?
+public class Example {
+
+    public static void main(String[] args) {
+
+        Car car1 = new Car("Blue", "Nissan", "XTerra");
+
+        // car2 is not a new object - it is a reference to car1 - any changes you make to car2 WILL affect car1
+        Car car2 = car1;
+
+        // set car2 color to Green - this WILL affect car1
+        car2.setColor("Green");
+
+        // print the color of car1
+        System.out.println(car1.getColor());
+        // "Green" will print
+    }
+}
+
+This shows when car2 is assigned a color, and car2 is passed to car1, car1 now has that same color.
 
 5.) What makes up a method signature?
+access-modifier return-type method-name(param a, param b, ...){
+}
 
 6.) Write a method signature for a method divide() that takes two ints as parameters and returns a double.
+
 
 7.) When does a method stop executing? How can you make it terminate?
 
