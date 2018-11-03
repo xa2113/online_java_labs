@@ -44,50 +44,72 @@ double methodName (int a, int b){
 Use return. Once a method returns data, the method stops executing, and the execution returns to the location of the method call. (typo? 3. Return and Return Types).
 
 8.) How do you return a String from a method?
-vararg?
+public String getName(){
+    return "Stringcontent";
+}
 
 9.) What is the return type of a method that does not returns any value?
 void.
 
 10.) When should a method be static?
-When the method needs to be accessed outside of the class.
+When the method needs to be accessed outside of any instance (aka object) of a class.
 
 11.) What is an example of a time you would make an instance variable static? final?
-When you don't want to each object of the class to have its own copy of the variable.
+Static -> When you don't want to each object of the class to have its own copy of the variable.
+Final -> when you don't want anyone to change the variable
 
 12.) When a method returns a value, what needs to be done with that value?
 Needs to be saved in a variable.
 
 13.) What is method overloading?
-When a method is designed to be able to take in different primitive types.
+When you declare more than one method in the same class with the same name and return type, but with different arguments and parameters.
 
 
 14.) What are constructors used for?
 A constructor initializes an object when it is created. While syntactically similar to methods, constructors do not have a return type and are used to set initial values to an object when it is created.
 
 15.) If a class does not have a constructor, how does Java handle the creation of an object
-???
+Use the default (empty) constructor.
 
 16.) What does a constructor that takes in two variable, make and model, for a class Vehicle look like?
-class MyConstructor {
-    char x;
-    MyConstructor(){
-        x = make;
-     }
-    MyConstructor(char model){
-        x = model;
-        }
- }
+public Vehicle(String make, String model){
+    this.make = make;
+    this.model = model;
+}
 
 
 17.) What is the "this" keyword used for?
 Used to refer to the members of a class if local variables have the same name.
 
 18.) What are the keywords public, private, protected used for in a class declaration? A method declaration? Variable declaration?
+In a class declaration (also applies to methods and variables):
+- public: the member of the class can be accessed by any other code in the program
+- private: the member can only be accessed only by other members of its class
+- projected: only members within the same package can access that member
 
 
 19.) What is constructor overloading?
-
+Constructor overloading is when you declare more than one constructor in a class with the same name but different parameters/arguments.
 
 20.) Demonstrate constructor overloading with three overloaded constructors.
+public class Car {
+
+    private String make;
+    private String model;
+
+    //The below is called overloaded constructors.
+
+    //default constructor
+    public Car(){
+
+    }
+
+    public Car(String make){
+        this.make = make;
+    }
+
+    public Car(String make, String model){
+        this.make = make;
+        this.model = model;
+    }
 
