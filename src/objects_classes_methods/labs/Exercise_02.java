@@ -31,10 +31,11 @@ class MethodExample {
     //Non-static to non-static, but method2 returns a value to method1?
     public void method1(){
         System.out.println("This is non-static method C.");
-        method2(int a);
+        int x = method2(4);
+        System.out.println(x);
     }
 
-    public void method2(){
+    public int method2(int a){
         return a*a;
     }
 }

@@ -18,5 +18,11 @@ package objects_classes_methods.labs.answer;
 
 
 
+public class Exercise_01 {
+
+}
 
 
+class Snake {
+
+}
