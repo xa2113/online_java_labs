@@ -29,7 +29,7 @@ public class Car {
     public void setMake(String make) {
         if(!make.equalsIgnoreCase("hummer")){
             this.make = make;
-        } else{
+        } else {
             System.out.println("We don't accept hummers.");
         }
     }
