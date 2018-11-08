@@ -1,4 +1,4 @@
-package objects_classes_methods.labs.answer;
+package objects_classes_methods.labs.exercise_01_answers;
 
 public class StudentBody {
 
