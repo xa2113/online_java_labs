@@ -13,3 +13,37 @@ package objects_classes_methods.labs;
  */
 
 
+class Class1 {
+    //main class
+
+    public void methodC(){
+        System.out.println("This is a non-static method within the same class.");
+    }
+
+    public static void main(String[] args) {
+
+    Class1 obj1 = new Class1();
+    obj1.methodC();
+
+    Class3 obj2 = new Class3();
+    obj2.methodA();
+
+    Class2 obj3 = new Class2();
+    obj3.methodB(2,3);
+
+    }
+}
+
+class Class2 {
+    public void methodB(int a,int b){
+        int result = a*b;
+        System.out.println(result);
+    }
+}
+
+class Class3 {
+    //method
+    public void methodA(){
+        System.out.println("This is a non-static method in a different class.");
+    }
+}
