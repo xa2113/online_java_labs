@@ -8,3 +8,26 @@ package objects_classes_methods.labs;
  *      Use System.out.println to demonstrate when the variables are changed.
  *
  */
+
+class ExerciseDemo{
+    int randomNumber;
+
+    static int staticNumber;
+
+}
+
+class ExerciseController{
+
+
+    public static void main(String[] args) {
+
+        ExerciseDemo obj = new ExerciseDemo();
+        obj.randomNumber = 5;
+
+        ExerciseDemo.staticNumber = 2;
+
+        System.out.println("I can print out both non-static randomNumber: " + obj.randomNumber + ", and static staticNumber: " + ExerciseDemo.staticNumber);
+
+    }
+
+}
