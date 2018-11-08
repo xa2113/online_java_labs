@@ -28,7 +28,7 @@ class MethodExample {
         System.out.println("This is static method B.");
     }
 
-    //Non-static to non-static, but method2 returns a value to method1?
+    //Non-static to non-static, but method2 returns a value to method1. Does this also pass a value to method2? (to answer q.4)
     public void method1(){
         System.out.println("This is non-static method C.");
         int x = method2(4);
