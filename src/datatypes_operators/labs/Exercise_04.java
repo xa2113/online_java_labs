@@ -1,4 +1,5 @@
 package datatypes_operators.labs;
+import java.util.Scanner;
 
 /**
  * Data Types and Operators Exercise 4: Arrays calculator
@@ -10,6 +11,23 @@ package datatypes_operators.labs;
  *
  */
 
-public class Exercise_04{
+public class Exercise_04 {
+    public static void main(String[] args) {
 
+        int[] numbers = new int[3];
+        for (int i = 0; i < numbers.length; i++) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter number: ");
+            numbers[i] = scanner.nextInt();
+
+
+        }
+        //sum
+        int sum = 0;
+        for (int i : numbers) {
+            sum += i;
+            i++;
+            System.out.println(sum);
+        }
+    }
 }
