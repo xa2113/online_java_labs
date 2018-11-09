@@ -22,10 +22,13 @@ public class Exercise_05{
         System.out.print("Enter number: ");
         int number = scanner.nextInt();
 
-        System.out.println(Arrays.asList(array).indexOf(number));
+        for(int i = 0; i < array.length; i++){
+            if (array[i] == number){
+                System.out.println("The index of " + number + " is: " + i);
+                return;
+            }
+        }
 
-
-
-
+        System.out.println(number + " is not in the array.");
     }
 }

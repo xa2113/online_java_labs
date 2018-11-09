@@ -11,23 +11,40 @@ import java.util.Scanner;
  *
  */
 
+
 public class Exercise_04 {
+
+    //Explain what this thing does
     public static void main(String[] args) {
 
-        int[] numbers = new int[3];
+        double sum = 0;
+        double[] numbers = new double[3];
+
+        //loop for the length of the array instantiating user values into the array
         for (int i = 0; i < numbers.length; i++) {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter number: ");
-            numbers[i] = scanner.nextInt();
-
-
+            numbers[i] = scanner.nextDouble();
         }
-        //sum
-        int sum = 0;
-        for (int i : numbers) {
+
+        //for-each loop refers to the actual values in the array (not the index)
+        for (double i : numbers) {
             sum += i;
-            i++;
-            System.out.println(sum);
         }
+
+        //This sum is only known after the above for each loop is complete.
+        System.out.println("This is the sum: " + sum +". This is the average: "+ sum/numbers.length);
     }
+
+    public void calculateInterestRate() {
+
+        //get loan amount from user
+
+        //get loan term from user
+
+        //get standard interest rate from fed
+
+        //multiply...
+    }
+
 }
