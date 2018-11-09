@@ -53,16 +53,26 @@ with the "+" sign.
 Yes. by using integer.toString(int i).
 
 15.) What is an array?
+An array is a collection of variables of the same type, referred to by a common name.
 
 16.) What is the first index of an array?
+0
 
 17.) Can you change the size of an array once it has been declared and initialized?
+Yes.
 
 18.) How do you print the 5th element in an array "exampleArray"?
+exampleArray[4]
 
 19.) What are the two ways you can declare and initialize an array? Demonstrate both.
+int[] scores = new int[10];
+int scores[] = new int[10];
 
 20.) How do you iterate through a multidimensional array?
+int[][] example = {
+    {1,2},
+    {2,3,4}
+};
 
 21.) What is the for-each loop used for?
-
+It is used to iterate over a collection of variables such as arrays.
