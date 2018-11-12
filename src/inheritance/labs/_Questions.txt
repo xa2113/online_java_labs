@@ -1,20 +1,29 @@
 Answer the following questions:
 
 1.) What is inheritance?
+Inheritance allows you to create a general class that defines traits common to a set of related items.
+This class can then be inherited by other, more specific classes, each adding those things that are unique to it.
 
 2.) Why do we use inheritance?
+To incorporate one class into another class into its declaration.
 
 3.) Provide a real world example where you think inheritance would be implemented.
+When ClassA defines the general things a Car should have, and ClassB defines what those general things are specifically in sports car's case.
 
 4.) How does a class inherit another class?
+use the keyword "extend"
 
 5.) How many levels can a hierarchy extend?
+A hierarchy can only be extended from one level up.
 
 6.) What is the "super" keyword used for?
+The "super" keyword refers to a variable or method in the parent class.
 
 7.) When a subclass object is created, in what order do the constructors execute?
+the super class's constructor is executed first.
 
 8.) What is method overwriting?
+By using @override, a child class can override the method defined by the parent class.
 
 9.) How can method overwriting be beneficial?
-
+When you want to use the same method differently in the parent class and child class.
