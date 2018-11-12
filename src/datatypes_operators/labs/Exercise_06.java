@@ -20,5 +20,14 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         int[][] twoDArray = new int[5][5];
+
+        for(int t=3; t < twoDArray.length;){
+            for(int i = 0; i <twoDArray[t].length;){
+                twoDArray[t][i] = (t*3);
+                t++;
+                i++;
+                System.out.print(twoDArray[t][i]+" ");
+            }
+        }
     }
 }
