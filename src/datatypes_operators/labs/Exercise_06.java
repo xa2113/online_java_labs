@@ -19,15 +19,17 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
+        int num = 3;
         int[][] twoDArray = new int[5][5];
 
-        for(int t=3; t < twoDArray.length;){
-            for(int i = 0; i <twoDArray[t].length;){
-                twoDArray[t][i] = (t*3);
-                t++;
-                i++;
+        for(int t = 0; t < twoDArray.length; t++){
+            for(int i = 0; i < twoDArray[t].length; i++){
+                twoDArray[t][i] = num;
+                num += 3;
+
                 System.out.print(twoDArray[t][i]+" ");
             }
+            System.out.println();
         }
     }
 }
