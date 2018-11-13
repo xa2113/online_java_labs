@@ -1,16 +1,28 @@
 Answer the following questions:
 
 1.) What is an interface?
+An interface defines one or more methods that have no body. Once an interface is defined, any number of classes can implement it.
 
 2.) Why are interfaces implemented?
+In order to require all the related classes to have the necessary components.
 
 3.) What is the implement keyword used for?
+The implement keyword implements the interface to the related class.
 
 4.) How many interfaces can class implement?
+Infinite.
 
 5.) Write a simple interface with one method.
+public interface ExampleInterface{
+    method();
+}
 
-6.) Think of a real world application where interfaces are used. Describe it's purpose.
+6.) Think of a real world application where interfaces are used. Describe its purpose.
+An interface about DailyActivities has the following methods:
+- goToSchool();
+- doHomework();
+
+A class about Student1 can define the school the student goes to and how Student1 does his/her homework.
 
 7.) What is wrong with the following interface?
 
@@ -19,3 +31,6 @@ Answer the following questions:
             return x + y;
         }
     }
+
+
+The methods in an interface should not have a body, unless it is the default interface.
