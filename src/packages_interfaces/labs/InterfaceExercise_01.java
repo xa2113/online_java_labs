@@ -18,3 +18,16 @@ package packages_interfaces.labs;
  */
 
 
+abstract class Car1 implements DrivingVehicle {
+
+    @Override
+    public void startEngine() {
+        System.out.println("Starting Engine.");
+    }
+}
+
+class Car2 implements DrivingVehicle {
+
+
+
+}
