@@ -29,5 +29,18 @@ abstract class Car1 implements DrivingVehicle {
 class Car2 implements DrivingVehicle {
 
 
+    @Override
+    public void startEngine() {
 
+    }
+
+    @Override
+    public void stopEngine() {
+
+    }
+
+    @Override
+    public void turnLeft() {
+
+    }
 }
