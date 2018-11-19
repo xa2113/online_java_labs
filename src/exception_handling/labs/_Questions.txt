@@ -1,24 +1,39 @@
 Answer the following questions:
 
 1.) What is exception handling?
+Exceptions refer to the errors a program might encounter.
+Exceptions handling is creating code that would run when the errors are encountered.
 
 2.) What is the exception hierarchy? What is the difference between the Exception class and the Error class?
+All exceptions are part of the Throwable class, which has two subclasses: Error and Exception.
+The Error class is related to errors in the JVM itself, which are beyond my control.
+The exception class is related to errors caused by program activity.
 
 3.) What is a try/catch?
+A try block is used to contain a section of code that could possibly cause an exception.
+The catch block is used to handle the exception thrown inside of the try block.
 
 4.) What exceptions have you come across thus far?
+ArrayIndexOutOfBoundsException
 
 5.) How many catch statement can you have following a try?
+Infinite.
 
 6.) How many try statements can you have preceding a catch?
+One.
 
 7.) What does the finally statement do in a try/catch/finally block?
+The finally statement will execute no matter what the result is for the try/catch block.
 
 8.) Can you nest exceptions? If so, when would you nest an exception?
+Yes. Use nested try blocks. If an exception is not caught within the nested try block, the outer try block will try to catch it.
 
 9.) If you want to catch an ArrayIndexOutOfBounds exception and an Exception exception,
     which should you catch first? Why?
+The ArrayIndexOutOfBounds exception should be caught first because this exception is included in the Exception exception.
 
 10.) How do you rethrow and exception? Why would you rethrow an exception?
+Use the keyword rethrow. To allow multiple handlers access to the exception - ex. one exception handler managers one aspect, second one manages another aspect.
 
 11.) What is the purpose of the throws keyword?
+Manually throwing an exception allows for a program to generate an exception that can be handled in an organized manner. 
