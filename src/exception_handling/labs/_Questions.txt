@@ -36,4 +36,4 @@ The ArrayIndexOutOfBounds exception should be caught first because this exceptio
 Use the keyword rethrow. To allow multiple handlers access to the exception - ex. one exception handler managers one aspect, second one manages another aspect.
 
 11.) What is the purpose of the throws keyword?
-Manually throwing an exception allows for a program to generate an exception that can be handled in an organized manner. 
+Manually throwing an exception allows for a program to generate an exception that can be handled in an organized manner.
