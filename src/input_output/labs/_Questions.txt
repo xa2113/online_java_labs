@@ -26,7 +26,7 @@ FilterWriter
 ???
 
 8.) What makes the BufferedReader different from the BufferedInputStream?
-BufferedReader is one of the byte stream classes(8 bits).
+BufferedReader is one of the byte stream classes(8 bits). -> takes in one character at a time.
 BufferredInputStream is one of the character stream classes (16 bits).
 
 9.) When would you use the read() method vs. the readline() method?
