@@ -23,7 +23,8 @@ BufferedReader
 FilterWriter
 
 7.) What is a try-with-resources?
-???
+Or, automatic resource management: prevent situations in which a file (or other resource) is inadventently not released after it is no longer needed.
+Use: when the try block ends, the resource is automatically released.
 
 8.) What makes the BufferedReader different from the BufferedInputStream?
 BufferedReader is one of the byte stream classes(8 bits). -> takes in one character at a time.
