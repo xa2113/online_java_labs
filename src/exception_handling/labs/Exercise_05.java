@@ -7,3 +7,8 @@ package exception_handling.labs;
  *
  */
 
+class Exercise_05 {
+
+
+
+}
