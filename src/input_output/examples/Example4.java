@@ -14,8 +14,8 @@ class ShowFile2 {
     {
         int i;
         FileInputStream fin = null;
-
-        // First, confirm that a file name has been specified.
+        args[0] = "/Users/Eileen/Desktop/file.txt";
+//         First, confirm that a file name has been specified.
         if(args.length != 1) {
             System.out.println("Usage: ShowFile2 filename");
             return;
