@@ -14,16 +14,22 @@ class ThrowDemo {
 
         try {
             int x = testThrow();
+            int y = divide(8,0);
         } catch (ArithmeticException ae){
-            throw ae;
+//            throw ae;
+            System.out.println(ae.getMessage());
         }
 
         System.out.println("After try/catch block.");
     }
 
+    public static int divide(int a, int b) throws ArithmeticException {
+        return a/b;
+    }
+
     public static int testThrow() throws ArithmeticException{
 
-        throw new ArithmeticException();
+        throw new ArithmeticException("Example Exception ");
 
     }
 }
