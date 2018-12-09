@@ -1,11 +1,17 @@
 Answer the following questions:
 
 1.) What is a thread and why do we use them?
+Multi-threading allows programs to run simultaneously.
 
 2.) What are the two ways to create a thread?
+Class implements Runnable;
+Class extends Thread.
 
 3.) How do you start a thread using the Runnable interface?
+Use "thread.start();" in the class that implements Runnable.
 
 4.) How do you start a thread using the Thread class?
+Use "start();" in the class that extends Thread.
 
 5.) How do you change a thread priority?
+You can set the priority of a thread using a number between 1-10.
