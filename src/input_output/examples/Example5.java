@@ -22,16 +22,16 @@ class CopyFile {
         FileOutputStream fout = null;
 
         // First, make sure that both files has been specified.
-        if(args.length != 2) {
-            System.out.println("Usage: CopyFile from to");
-            return;
-        }
+//        if(args.length != 2) {
+//            System.out.println("Usage: CopyFile from to");
+//            return;
+//        }
 
         // Copy a File.
         try {
             // Attempt to open the files.
-            fin = new FileInputStream(args[0]);
-            fout = new FileOutputStream(args[1]);
+            fin = new FileInputStream("/Users/Eileen/Documents/CodingNomads/online_course/test.txt");
+            fout = new FileOutputStream("/Users/Eileen/Documents/CodingNomads/online_course/test2.txt");
 
             do {
                 i = fin.read();

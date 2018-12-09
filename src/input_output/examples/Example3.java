@@ -21,13 +21,13 @@ class ShowFile {
         FileInputStream fin;
 
         // First make sure that a file has been specified.
-        if(args.length != 1) {
-            System.out.println("Usage: ShowFile File");
-            return;
-        }
+//        if(args.length != 1) {
+//            System.out.println("Usage: ShowFile File");
+//            return;
+//        }
 
         try {
-            fin = new FileInputStream(args[0]);
+            fin = new FileInputStream("/Users/Eileen/Desktop/file.txt");
         } catch(FileNotFoundException exc) {
             System.out.println("File Not Found");
             return;
