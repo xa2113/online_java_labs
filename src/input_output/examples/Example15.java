@@ -13,7 +13,7 @@ class DtoS {
         String s;
 
         // Create and use a FileReader wrapped in a BufferedReader.
-        try (BufferedReader br = new BufferedReader(new FileReader("test.txt")))
+        try (BufferedReader br = new BufferedReader(new FileReader("/Users/Eileen/Documents/CodingNomads/online_course/test2.txt")))
         {
             while((s = br.readLine()) != null) {
                 System.out.println(s);

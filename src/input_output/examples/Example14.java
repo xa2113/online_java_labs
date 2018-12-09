@@ -20,7 +20,7 @@ class KtoD {
 
         System.out.println("Enter text ('stop' to quit).");
 
-        try (FileWriter fw = new FileWriter("test.txt"))
+        try (FileWriter fw = new FileWriter("/Users/Eileen/Documents/CodingNomads/online_course/test.txt"))
         {
             do {
                 System.out.print(": ");
