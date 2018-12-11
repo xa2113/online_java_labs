@@ -23,7 +23,7 @@ public class Exercise_01 implements Runnable {
 
     Thread thread;
 
-    //What does this string do? why does constructor "target" automatically appear?
+    //What does this string do? Is "String name" a constructor? Why does constructor "target" automatically appear?
     public Exercise_01(String name){
         thread = new Thread(this, name);
         thread.start();
