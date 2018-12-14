@@ -28,7 +28,7 @@ import java.io.*;
 //            fout = new BufferedWriter(args[0]);
 //
 //            //change e to #.
-//            if (i == 65) fout.write(23);
+//            if (i == 101) i = 35;
 //
 //            do {
 //                i = fin.read();
