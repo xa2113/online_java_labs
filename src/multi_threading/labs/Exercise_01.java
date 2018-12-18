@@ -1,5 +1,7 @@
 package multi_threading.labs;
 
+import objects_classes_methods.labs.Exercise_04;
+
 /**
  * Multithreading Exercise 1:
  *
@@ -13,6 +15,10 @@ class RunnableExercise {
         System.out.println("Main thread starting..");
         Exercise_01 threadTest = new Exercise_01("RunnableOne");
         Exercise_01 threadTest2 = new Exercise_01("RunnableTwo");
+//        Exercise_01 test = new Exercise_01();
+//        Thread thread = new Thread(test,"name1");
+//        thread.start();
+
         System.out.println("Main thread ending..");
     }
 
@@ -30,6 +36,7 @@ public class Exercise_01 implements Runnable {
     }
 
     //do I need to override run method??
+    @Override
     public void run(){
         System.out.println(thread.getName() + " starting.");
         try{

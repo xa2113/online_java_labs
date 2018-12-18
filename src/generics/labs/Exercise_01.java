@@ -19,10 +19,14 @@ class Exercise_01<T> {
 
     T getob(){ return ob;}
 
+    void setOb(T val){this.ob = val;}
+
     void showType(){
         System.out.println("Type of T is " +
                 ob.getClass().getName());
     }
+
+
 }
 
 class GenericsInterger {
@@ -32,18 +36,21 @@ class GenericsInterger {
         Exercise_01<Integer> intOb;
 
         intOb = new Exercise_01<>(3);
+        intOb.setOb(5);
 
-//        int v = intOb.getob();
-        System.out.println(intOb.getob());
+        int v = intOb.getob();
+        System.out.println(v);
         intOb.showType();
 
         //String example
-        Exercise_01<String> variable1;
+        Exercise_01<String> object1;
 
-        variable1 = new Exercise_01<>("random");
+        object1 = new Exercise_01<>("random");
+        object1.setOb("something");
+        String s = object1.getob();
 
-        System.out.println(variable1.getob());
-        variable1.showType();
+        System.out.println(s);
+        object1.showType();
 
     }
 }
