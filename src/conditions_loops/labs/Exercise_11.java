@@ -23,9 +23,8 @@ public class Exercise_11 {
     public static void main(String[] args) {
         for(int x=1; x < 11; ) {
             for (int i = 1; i < 11; ) {
-                i = i*x;
+                System.out.print(i*x + "| ");
                 i++;
-                System.out.print(i + " | ");
             }
             System.out.println();
             x++;
